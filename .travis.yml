@@ -1,7 +1,7 @@
 # https://code.visualstudio.com/api/working-with-extensions/continuous-integration#travis-ci
 language: node_js
 os: [linux]
-node_js: 10
+node_js: 14
 
 # https://github.com/microsoft/vscode/issues/33998
 addons:
