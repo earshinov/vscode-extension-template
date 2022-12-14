@@ -1,6 +1,6 @@
 declare module 'nyc' {
   export default class NYC {
-    constructor(args: {[key: string]: any});
+    constructor(args: { [key: string]: any });
     createTempDirectory(): Thenable<void>;
     writeCoverageFile(): Thenable<void>;
   }

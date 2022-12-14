@@ -75,8 +75,7 @@ export async function withCoverage(projectRoot: string, cb: () => void | Thenabl
   await nyc.createTempDirectory();
   try {
     await cb();
-  }
-  finally {
+  } finally {
     await nyc.writeCoverageFile();
   }
 }
