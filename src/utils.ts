@@ -3,8 +3,9 @@
  *
  * Caught exceptions are logged and re-thrown.
  */
+/* eslint-disable space-before-function-paren */
 export function catchErrors<T extends (...args: any[]) => void>(fn: T): T {
-  return ((...args: any[]) => {
+  return ((...args: Parameters<T>) => {
     try {
       return fn(...args);
     } catch (e) /* istanbul ignore next */ {

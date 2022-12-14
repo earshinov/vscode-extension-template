@@ -69,7 +69,7 @@ import configUtil from 'nyc/lib/config-util';
 /** Performs necessary magic for capturing coverage with nyc */
 export async function withCoverage(projectRoot: string, cb: () => void | Thenable<void>): Promise<void> {
   const { yargs } = await configUtil(projectRoot);
-  const args = yargs.parse();
+  const args: Record<string, any> = yargs.parse();
   const nyc = new NYC(args);
 
   await nyc.createTempDirectory();

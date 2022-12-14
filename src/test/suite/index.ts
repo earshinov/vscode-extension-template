@@ -20,7 +20,8 @@ export async function run(): Promise<void> {
 
     const files: string[] = await new Promise((resolve, reject) => {
       glob('**/test-*.js', { cwd: testsRoot }, (err, files) => {
-        err ? reject(err) : resolve(files);
+        if (err) reject(err);
+        else resolve(files);
       });
     });
 
