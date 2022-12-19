@@ -98,7 +98,7 @@
     "vscode-test": "^1.4.0"
   },
   "prettier": {
-    "printWidth": 160,
+    "printWidth": 120,
     "singleQuote": true,
     "trailingComma": "none"
   },
