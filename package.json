@@ -92,7 +92,7 @@
     "sinon": "^9.0.2",
     "test-exclude": "j03m/test-exclude#j03m/fix2",
     "typescript": "^3.7.2",
-    "vsce": "^1.66.0",
+    "vsce": "^2.15.0",
     "vscode-test": "^1.4.0"
   },
   "prettier": {

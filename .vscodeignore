@@ -5,6 +5,7 @@
 
 # Whitelist
 !doc/logo.png
-!package.json
+!LICENSE
 !out/**/*.js
+!package.json
 !README.md
