@@ -1,6 +1,6 @@
 # vscode-extension-template
 
-[![Build Status](https://travis-ci.com/earshinov/vscode-extension-template.svg?branch=master)](https://travis-ci.com/earshinov/vscode-extension-template)
+[![Build Status](https://github.com/earshinov/vscode-extension-template/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/earshinov/vscode-extension-template)
 [![Coverage Status](https://coveralls.io/repos/github/earshinov/vscode-extension-template/badge.svg?branch=master)](https://coveralls.io/github/earshinov/vscode-extension-template?branch=master)
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/earshinov.vscode-extension-template)](https://marketplace.visualstudio.com/items?itemName=earshinov.vscode-extension-template)
 
