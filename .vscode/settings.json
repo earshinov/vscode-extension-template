@@ -1,26 +1,26 @@
-// Place your settings in this file to overwrite default and user settings.
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
   "editor.rulers": [120],
   "editor.tabSize": 2,
-  "files.exclude": {
-    ".nyc_output/": true,
-    ".vscode-test/": true,
-    "*.vsix": true,
-    "coverage/": true,
-    "node_modules": true,
-    "out": true,
-    "yarn-error.log": true
-  },
   "search.exclude": {
     ".nyc_output/": true,
     ".vscode-test/": true,
     "*.vsix": true,
     "coverage/": true,
-    "node_modules": true,
-    "out": true,
+    "node_modules/": true,
+    "out/": true,
     "yarn-error.log": true
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
