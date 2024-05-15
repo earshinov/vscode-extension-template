@@ -15,7 +15,8 @@ async function main(): Promise<void> {
     // Download VS Code, unzip it and run the integration test
     await runTests({
       extensionDevelopmentPath,
-      extensionTestsPath
+      extensionTestsPath,
+      launchArgs: ['--disable-extensions']
     });
   } catch (err) {
     console.error('Failed to run tests');
