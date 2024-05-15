@@ -1,3 +1,5 @@
+import assert from 'assert';
+
 import vscode from 'vscode';
 
 suite('Extension Test Suite', () => {
@@ -5,5 +7,7 @@ suite('Extension Test Suite', () => {
 
   test('extension.helloWorld command', async () => {
     await vscode.commands.executeCommand('extension.helloWorld');
+
+    assert.ok(true);
   });
 });
