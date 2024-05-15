@@ -54,7 +54,6 @@
     "lint": "prettier --check . && eslint src/**/*.ts",
     "pretest": "env BABEL_ENV=coverage yarn build && yarn run coverage:clean",
     "test": "node ./out/test/runTest.js && yarn run nyc check-coverage",
-    "posttest": "yarn run coverage:report",
     "coverage:clean": "rimraf .nyc_output coverage",
     "coverage:report": "nyc report --reporter=lcov --reporter=text-summary",
     "vscode:prepublish": "yarn run clean && yarn build"
