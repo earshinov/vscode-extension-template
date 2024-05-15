@@ -28,4 +28,5 @@ export function activate(context: vscode.ExtensionContext): void {
 }
 
 // this method is called when your extension is deactivated
+/* istanbul ignore next */
 export function deactivate(): void {}
